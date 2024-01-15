@@ -4,9 +4,6 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Database\Seeders\PostSeeder;
-use Database\Seeders\ProdukSeeder;
-use Database\Seeders\KategoriSeeder;
 
 class DatabaseSeeder extends Seeder
 {

@@ -2,10 +2,8 @@
 
 namespace App\Models;
 
-use App\Models\Post;
-use App\Models\Produk;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
 
 class Kategori extends Model
 {
@@ -17,7 +15,7 @@ class Kategori extends Model
     {
         return $this->hasMany(Produk::class);
     }
-    
+
     public function post()
     {
         return $this->hasMany(Post::class);

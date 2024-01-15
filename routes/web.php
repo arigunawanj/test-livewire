@@ -1,10 +1,10 @@
 <?php
 
-use App\Livewire\Beranda;
 use App\Livewire\Artikel\Index as ArtikelIndex;
-use Illuminate\Support\Facades\Route;
-use App\Livewire\Post\Index as PostIndex;
+use App\Livewire\Beranda;
 use App\Livewire\Kategori\Index as KategoriIndex;
+use App\Livewire\Post\Index as PostIndex;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
